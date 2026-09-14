@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+ double x,ln,fx,sum,n;
+ std::cin >> x;
+ ln =std::log(x*x);
+ fx =x*x-ln;
+ sum = 0;
+ n = 0;
+
+ do {
+    n = n+1;
+    sum = sum + 1/n;
+ } while (sum < fx);
+
+ std::cout << n <<std::endl;
+
+ return 0;
+}
