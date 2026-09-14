@@ -1,0 +1,13 @@
+#include <iostream>
+int main()
+{
+    int secall, sec, hour, min;
+    std::cout <<"Введите количество секунд "  ;
+    std::cin >> secall;
+    sec= secall%60;
+    secall=secall/60;
+    min= secall%60;
+    hour=secall/60;
+    std::cout<<"У вас "<<hour<<" часов "<<min<<" минут "<<sec<<" секунд";
+    return 0;
+}
