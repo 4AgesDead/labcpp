@@ -4,6 +4,11 @@ int main()
     int secall, sec, hour, min;
     std::cout <<"Введите количество секунд "  ;
     std::cin >> secall;
+    if (secall<0) {
+        std::cout<<"Вы ввели неверное значение";
+        return 0;
+} else {
+}
     sec= secall%60;
     secall=secall/60;
     min= secall%60;
