@@ -1,0 +1,43 @@
+#include <iostream>
+
+
+int main() {
+ int number;
+ std::cout<< "введите десятичную цифру ";
+ std::cin >> number;
+ switch(number){
+     case 0:
+         std::cout<<"вы ввели ноль";
+         return 0;
+     case 1:
+         std::cout<<"вы ввели один";
+         return 0;
+     case 2:
+         std::cout<<"вы ввели два";
+         return 0;    
+     case 3:
+         std::cout<<"вы ввели три";
+         return 0;
+     case 4:
+         std::cout<<"вы ввели четыре";
+         return 0;        
+     case 5:
+         std::cout<<"вы ввели пять";
+         return 0;    
+     case 6:
+         std::cout<<"вы ввели шесть";
+         return 0; 
+     case 7:
+         std::cout<<"вы ввели семь";
+         return 0;
+     case 8:
+         std::cout<<"вы ввели восемь";
+         return 0;  
+     case 9:
+         std::cout<<"вы ввели девять";
+         return 0;   
+     default:
+         std::cout << "вы ввели не верное значение";
+}
+ return 0;
+}
