@@ -1,0 +1,32 @@
+#include <iostream>
+
+
+int main() {
+ char majuscule;
+ std::cout<< "введите одну из предложенных букв: P, K, T, B, L, R ";
+ std::cin >> majuscule;
+ switch(majuscule){
+     case 'P' :
+         std::cout<<"Paris";
+         return 0;
+     case 'K' :
+         std::cout<<"Kiev";
+         return 0;
+     case 'T' :
+         std::cout<<"Tallinn";
+         return 0;    
+     case 'B' :
+         std::cout<<"Berlin";
+         return 0;
+     case 'L' :
+         std::cout<<"London";
+         return 0;        
+     case 'R' :
+         std::cout<<"Rome";
+         return 0;    
+     default:
+         std::cout << "вы ввели не верную букву"<<std::endl;
+          std::cout<<"https://youtu.be/dQw4w9WgXcQ?si=-X4lWII2TRiq9Slw";
+}
+ return 0;
+ }
